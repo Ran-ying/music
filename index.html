@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ying's Music</title>
+    <script src="./APlayer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./APlayer.min.css">
+    <style>
+        body {
+            background-color: #dadaf0;
+            max-width: 768px;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        window.onload = () => {
+            var audio = [
+                {
+                    name: '千里邀月',
+                    artist: '泠鸢yousa & hanser & 三无Marblue & 茶理理',
+                    url: './music/千里邀月.mp3',
+                    cover: './music/千里邀月.webp',
+                    lrc: './music/千里邀月.lrc',
+                },
+                {
+                    name: 'That Girl',
+                    artist: 'Olly Murs',
+                    url: './music/That Girl.mp3',
+                    cover: './music/That Girl.webp',
+                    lrc: './music/That Girl.lrc',
+                },
+                {
+                    name: 'ふたりのきもちのほんとのひみつ',
+                    artist: 'やすなとソーニャ',
+                    url: './music/ふたりのきもちのほんとのひみつ.mp3',
+                    cover: './music/ふたりのきもちのほんとのひみつ.webp',
+                    lrc: './music/ふたりのきもちのほんとのひみつ.lrc',
+                },
+                {
+                    name: 'キルミーのベイベー!',
+                    artist: 'やすなとソーニャ',
+                    url: './music/キルミーのベイベー!.mp3',
+                    cover: './music/キルミーのベイベー!.webp',
+                    lrc: './music/キルミーのベイベー!.lrc',
+                },
+                {
+                    name: '一命矣',
+                    artist: '银临',
+                    url: './music/一命矣.mp3',
+                    cover: './music/一命矣.webp',
+                    lrc: './music/一命矣.lrc',
+                },
+                {
+                    name: '九万字',
+                    artist: '黄诗扶',
+                    url: './music/九万字.mp3',
+                    cover: './music/九万字.webp',
+                    lrc: './music/九万字.lrc',
+                },
+                {
+                    name: '你是',
+                    artist: '银临',
+                    url: './music/你是.mp3',
+                    cover: './music/你是.webp',
+                    lrc: './music/你是.lrc',
+                },
+                {
+                    name: '夜曲',
+                    artist: '周杰伦',
+                    url: './music/夜曲.mp3',
+                    cover: './music/夜曲.webp',
+                    lrc: './music/夜曲.lrc',
+                },
+                {
+                    name: '大喜',
+                    artist: '泠鸢yousa',
+                    url: './music/大喜.mp3',
+                    cover: './music/大喜.webp',
+                    lrc: './music/大喜.lrc',
+                },
+                {
+                    name: '山上雪',
+                    artist: '黄诗扶',
+                    url: './music/山上雪.mp3',
+                    cover: './music/山上雪.webp',
+                    lrc: './music/山上雪.lrc',
+                },
+                {
+                    name: '无与伦比的美丽',
+                    artist: '苏打绿',
+                    url: './music/无与伦比的美丽.mp3',
+                    cover: './music/无与伦比的美丽.webp',
+                    lrc: './music/无与伦比的美丽.lrc',
+                },
+                {
+                    name: '眉南边',
+                    artist: '银临',
+                    url: './music/眉南边.mp3',
+                    cover: './music/眉南边.webp',
+                    lrc: './music/眉南边.lrc',
+                },
+                {
+                    name: '笑纳',
+                    artist: '花僮',
+                    url: './music/笑纳.mp3',
+                    cover: './music/笑纳.webp',
+                    lrc: './music/笑纳.lrc',
+                },
+                {
+                    name: '花月成双',
+                    artist: '三无Marblue',
+                    url: './music/花月成双.mp3',
+                    cover: './music/花月成双.webp',
+                    lrc: './music/花月成双.lrc',
+                },
+                {
+                    name: '赐我',
+                    artist: '一只白羊',
+                    url: './music/赐我.mp3',
+                    cover: './music/赐我.webp',
+                    lrc: './music/赐我.lrc',
+                },
+                {
+                    name: '起风了',
+                    artist: '吴青峰',
+                    url: './music/起风了.mp3',
+                    cover: './music/起风了.webp',
+                    lrc: './music/起风了.lrc',
+                },
+                {
+                    name: '野子',
+                    artist: '苏运莹',
+                    url: './music/野子.mp3',
+                    cover: './music/野子.webp',
+                    lrc: './music/野子.lrc',
+                },
+                {
+                    name: '青白',
+                    artist: '银临 & 黄诗扶',
+                    url: './music/青白.mp3',
+                    cover: './music/青白.webp',
+                    lrc: './music/青白.lrc',
+                },
+            ]
+            var options = {
+                container: window['aplayer'],
+                fixed: false,
+                mini: false,
+                autoplay: false,
+                theme: '#a7a6dc',
+                loop: 'all',
+                order: 'random',
+                preload: 'auto',
+                audio: audio,
+                listFolded: false,
+            }
+            const ap = new APlayer(options);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Ying's Music</h1>
+    <div id="aplayer"></div>
+</body>
+
+</html>
