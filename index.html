@@ -37,7 +37,7 @@
                 audio: null,
                 listFolded: false,
             }
-            fetch('mu.json')
+            fetch('/assets/mu.json')
             .then(data => data.json())
             .then(data => {
                 options.audio = data
