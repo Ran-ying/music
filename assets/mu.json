@@ -1,13 +1,5 @@
 [
     {
-        "id": 0,
-        "name": "That Girl",
-        "artist": "Olly Murs",
-        "url": "https://music.yir.moe/music/That%20Girl.mp3",
-        "cover": "https://music.yir.moe/music/That%20Girl.webp",
-        "lrc": "https://music.yir.moe/music/That%20Girl.lrc"
-    },
-    {
         "id": 1,
         "name": "ふたりのきもちのほんとのひみつ",
         "artist": "やすなとソーニャ",
