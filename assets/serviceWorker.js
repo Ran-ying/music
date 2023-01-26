@@ -1,9 +1,9 @@
 // @ts-nocheck
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'cache';
 var urlsToCache = [
     '/',
 ];
-fetch('mu.json')
+fetch('/assets/mu.json')
 .then(data => data.json())
 .then(data => {
     data.forEach(element => {
