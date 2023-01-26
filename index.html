@@ -8,6 +8,14 @@
     <title>Ying's Music</title>
     <script src="./APlayer.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./APlayer.min.css">
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/serviceWorker.js')
+                .then(() => { console.log('Service Worker Registered'); });
+        }
+    </script>
     <style>
         body {
             background-color: #dadaf0;
