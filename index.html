@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ying's Music</title>
-    <script src="./APlayer.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./APlayer.min.css">
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <script src="/assets/APlayer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/APlayer.min.css">
+    <link rel="manifest" href="/assets/manifest.webmanifest" />
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
-                .register('/serviceWorker.js')
+                .register('/assets/serviceWorker.js')
                 .then(() => { console.log('Service Worker Registered'); });
         }
     </script>
