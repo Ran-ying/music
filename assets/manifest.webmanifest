@@ -1,11 +1,12 @@
 {
-    "short_name": "Ying's Music",
     "name": "Ying's Music",
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#a7a6dc",  
+    "short_name": "Ying's Music",
+    "description": "Ying's Music",
+    "start_url": "/?from=pwa",
     "background_color": "#dadaf0",
-    "description": "",
+    "display": "standalone",
+    "scope": "/", 
+    "theme_color": "#a7a6dc",  
     "icons": [
         {
             "src": "/assets/icon-192x192.png",
