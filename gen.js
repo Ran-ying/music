@@ -1,6 +1,5 @@
 let art = {
     "千里邀月": "泠鸢yousa & hanser & 三无Marblue & 茶理理",
-    "That Girl": "Olly Murs",
     "ふたりのきもちのほんとのひみつ": "やすなとソーニャ",
     "キルミーのベイベー!": "やすなとソーニャ",
     "一命矣": "银临",
@@ -35,12 +34,9 @@ require("fs").readdir("music",(err, file)=>{
         if(file[i] != ".DS_Store" && file[i].split(".")[1] != "webp")
         console.log(
 `{
-    "id": ${count++},
     "name": "${file[i].split(".")[0]}", 
     "artist": "${art[file[i].split(".")[0]]}",
     "url": "${encodeURI(url+file[i])}",
-    "cover": "${encodeURI(url+file[i].split(".")[0])}.webp",
-    "lrc": "${encodeURI(url+file[i].split(".")[0])}.lrc"
 },`)
     }
     console.log("]")

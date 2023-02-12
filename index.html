@@ -6,52 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ying's Music</title>
-    <script src="/assets/APlayer.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/APlayer.min.css">
     <link rel="manifest" href="/assets/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/assets/icon-192x192.png">
     <meta name="theme-color" content="#a7a6dc"/>
+    <script src="./assets/music.js"></script>
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker
-                .register('/assets/serviceWorker.js')
-                .then(() => { console.log('Service Worker Registered'); });
+        let player = new Audio();
+        let loadMusic = ()=>{
+            let music = musicList[Math.floor(Math.random()*musicList.length)];
+            player.src = music.url;
+            document.title = music.name;
         }
+        let toggle = ()=>{
+            if(player.paused){
+                player.play();
+            }
+            else {
+                player.pause();
+            }
+        }
+        player.addEventListener('ended', loadMusic)
+        window.onload = loadMusic;
     </script>
     <style>
+        body, html{
+            height: 100%;
+        }
         body {
             background-color: #dadaf0;
-            max-width: 768px;
-            margin: 0 auto;
+            margin: 0;
+            text-align: center;
+            font-size: 2em;
         }
     </style>
-    <script>
-        window.onload = () => {
-            var options = {
-                container: window['aplayer'],
-                fixed: false,
-                mini: false,
-                autoplay: false,
-                theme: '#a7a6dc',
-                loop: 'all',
-                order: 'random',
-                preload: 'auto',
-                audio: null,
-                listFolded: false,
-            }
-            fetch('/assets/mu.json')
-            .then(data => data.json())
-            .then(data => {
-                options.audio = data
-                const ap = new APlayer(options);
-            })
-        }
-    </script>
 </head>
 
-<body>
-    <h1>Ying's Music</h1>
-    <div id="aplayer"></div>
+<body onclick="toggle()">
+
 </body>
 
 </html>
