@@ -7,10 +7,10 @@ let musicList = [
         "name": "キルミーのベイベー!",
         "url": "music/%E3%82%AD%E3%83%AB%E3%83%9F%E3%83%BC%E3%81%AE%E3%83%99%E3%82%A4%E3%83%99%E3%83%BC!.mp3",
     },
-    {
-        "name": "一命矣",
-        "url": "music/%E4%B8%80%E5%91%BD%E7%9F%A3.mp3",
-    },
+//     {
+//         "name": "一命矣",
+//         "url": "music/%E4%B8%80%E5%91%BD%E7%9F%A3.mp3",
+//     },
     {
         "name": "九万字",
         "url": "music/%E4%B9%9D%E4%B8%87%E5%AD%97.mp3",
@@ -39,22 +39,22 @@ let musicList = [
         "name": "大喜",
         "url": "music/%E5%A4%A7%E5%96%9C.mp3",
     },
-    {
-        "name": "寻找",
-        "url": "music/%E5%AF%BB%E6%89%BE.mp3",
-    },
+//     {
+//         "name": "寻找",
+//         "url": "music/%E5%AF%BB%E6%89%BE.mp3",
+//     },
     {
         "name": "山上雪",
         "url": "music/%E5%B1%B1%E4%B8%8A%E9%9B%AA.mp3",
     },
-    {
-        "name": "平安奇妙物语",
-        "url": "music/%E5%B9%B3%E5%AE%89%E5%A5%87%E5%A6%99%E7%89%A9%E8%AF%AD.mp3",
-    },
-    {
-        "name": "无与伦比的美丽",
-        "url": "music/%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E7%BE%8E%E4%B8%BD.mp3",
-    },
+//     {
+//         "name": "平安奇妙物语",
+//         "url": "music/%E5%B9%B3%E5%AE%89%E5%A5%87%E5%A6%99%E7%89%A9%E8%AF%AD.mp3",
+//     },
+//     {
+//         "name": "无与伦比的美丽",
+//         "url": "music/%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E7%BE%8E%E4%B8%BD.mp3",
+//     },
     {
         "name": "月光",
         "url": "music/%E6%9C%88%E5%85%89.mp3",
@@ -75,14 +75,14 @@ let musicList = [
         "name": "花月成双",
         "url": "music/%E8%8A%B1%E6%9C%88%E6%88%90%E5%8F%8C.mp3",
     },
-    {
-        "name": "赐我",
-        "url": "music/%E8%B5%90%E6%88%91.mp3",
-    },
-    {
-        "name": "起风了",
-        "url": "music/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp3",
-    },
+//     {
+//         "name": "赐我",
+//         "url": "music/%E8%B5%90%E6%88%91.mp3",
+//     },
+//     {
+//         "name": "起风了",
+//         "url": "music/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp3",
+//     },
     {
         "name": "野子",
         "url": "music/%E9%87%8E%E5%AD%90.mp3",
