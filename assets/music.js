@@ -1,12 +1,12 @@
 let musicList = [
-    {
-        "name": "ふたりのきもちのほんとのひみつ",
-        "url": "music/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E3%81%8D%E3%82%82%E3%81%A1%E3%81%AE%E3%81%BB%E3%82%93%E3%81%A8%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4.mp3",
-    },
-    {
-        "name": "キルミーのベイベー!",
-        "url": "music/%E3%82%AD%E3%83%AB%E3%83%9F%E3%83%BC%E3%81%AE%E3%83%99%E3%82%A4%E3%83%99%E3%83%BC!.mp3",
-    },
+//     {
+//         "name": "ふたりのきもちのほんとのひみつ",
+//         "url": "music/%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E3%81%8D%E3%82%82%E3%81%A1%E3%81%AE%E3%81%BB%E3%82%93%E3%81%A8%E3%81%AE%E3%81%B2%E3%81%BF%E3%81%A4.mp3",
+//     },
+//     {
+//         "name": "キルミーのベイベー!",
+//         "url": "music/%E3%82%AD%E3%83%AB%E3%83%9F%E3%83%BC%E3%81%AE%E3%83%99%E3%82%A4%E3%83%99%E3%83%BC!.mp3",
+//     },
 //     {
 //         "name": "一命矣",
 //         "url": "music/%E4%B8%80%E5%91%BD%E7%9F%A3.mp3",
@@ -15,10 +15,10 @@ let musicList = [
         "name": "九万字",
         "url": "music/%E4%B9%9D%E4%B8%87%E5%AD%97.mp3",
     },
-    {
-        "name": "你是",
-        "url": "music/%E4%BD%A0%E6%98%AF.mp3",
-    },
+//     {
+//         "name": "你是",
+//         "url": "music/%E4%BD%A0%E6%98%AF.mp3",
+//     },
     {
         "name": "千里邀月",
         "url": "music/%E5%8D%83%E9%87%8C%E9%82%80%E6%9C%88.mp3",
@@ -31,10 +31,10 @@ let musicList = [
         "name": "城南雨歇处",
         "url": "music/%E5%9F%8E%E5%8D%97%E9%9B%A8%E6%AD%87%E5%A4%84.mp3",
     },
-    {
-        "name": "夜曲",
-        "url": "music/%E5%A4%9C%E6%9B%B2.mp3",
-    },
+//     {
+//         "name": "夜曲",
+//         "url": "music/%E5%A4%9C%E6%9B%B2.mp3",
+//     },
     {
         "name": "大喜",
         "url": "music/%E5%A4%A7%E5%96%9C.mp3",
@@ -47,10 +47,10 @@ let musicList = [
         "name": "山上雪",
         "url": "music/%E5%B1%B1%E4%B8%8A%E9%9B%AA.mp3",
     },
-//     {
-//         "name": "平安奇妙物语",
-//         "url": "music/%E5%B9%B3%E5%AE%89%E5%A5%87%E5%A6%99%E7%89%A9%E8%AF%AD.mp3",
-//     },
+    {
+        "name": "平安奇妙物语",
+        "url": "music/%E5%B9%B3%E5%AE%89%E5%A5%87%E5%A6%99%E7%89%A9%E8%AF%AD.mp3",
+    },
 //     {
 //         "name": "无与伦比的美丽",
 //         "url": "music/%E6%97%A0%E4%B8%8E%E4%BC%A6%E6%AF%94%E7%9A%84%E7%BE%8E%E4%B8%BD.mp3",
